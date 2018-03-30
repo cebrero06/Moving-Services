@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  background: #fff; }
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 10px auto;
+  overflow: hidden; }
+
+.nombre {
+  background-image: url("Img/happy.jpg");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .nombre p {
+    color: #005ff9;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 50px; }
+    .nombre p a {
+      color: #005ff9; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+  * nav {
+    background: #c0d6f9;
+    height: 40px;
+    width: 100%; }
+  * ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; }
+    * ul li {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      position: relative;
+      display: block; }
+      * ul li:hover ul {
+        display: block; }
+      * ul li i {
+        color: #000;
+        padding: 0px;
+        align-items: center; }
+      * ul li a {
+        display: block;
+        text-decoration: none;
+        color: #005ff9;
+        display: flex;
+        justify-content: center;
+        padding: 10px; }
+        * ul li a:hover {
+          background: #005ff9;
+          color: #fff; }
+    * ul ul {
+      display: none;
+      position: absolute;
+      margin-top: 1px;
+      background: #c0d6f9;
+      border-radius: 0px 0px 4px 4px; }
+      * ul ul li {
+        width: 300px; }
+        * ul ul li a {
+          padding: 8px 10px; }
+          * ul ul li a:hover {
+            background: #005ff9;
+            color: #fff; }
+
+section {
+  width: 100%;
+  background: #f4f4f4; }
+  section h1 {
+    color: #005ff9;
+    font-size: 35px;
+    padding: 10px; }
+  section article {
+    display: flex;
+    flex-wrap: wrap; }
+    section article div {
+      padding-left: 25px;
+      flex-direction: row;
+      width: 50%; }
+    section article .foto {
+      display: flex;
+      width: 50%;
+      height: 350px; }
+      section article .foto img {
+        width: 100%; }
+
+.main2 {
+  background: #c0d6f9;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around; }
+
+.moving-services {
+  width: 100%; }
+  .moving-services h2 {
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #005ff9; }
+  .moving-services div {
+    background: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .moving-services .service {
+    background: #fff;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column; }
+
+/*# sourceMappingURL=estilos.css.map */
